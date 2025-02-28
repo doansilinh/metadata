@@ -73,10 +73,10 @@ metadata = OpenMetadata(server_config)
 
 # tạo kết nối đến MySQL của openmetadata
 conn = mysql.connector.connect(
-    host="localhost",  # Địa chỉ MySQL server (localhost nếu chạy trên máy)
-    user="linh",  # Tên user MySQL
-    password="03062004",  # Mật khẩu MySQL
-    database="log_ai",  # Tên database cần kết nối
+    host="localhost",
+    user="linh",
+    password="03062004",
+    database="log_ai",
 )
 cursor = conn.cursor()
 
